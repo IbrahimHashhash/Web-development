@@ -1,0 +1,95 @@
+#multi {
+    padding-top: 10px;
+}
+
+.info {
+    color: white;
+    font-size: 13px;
+    margin: 3px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.c-title {
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    margin-bottom: 40px;
+}
+
+.c-title:hover {
+    color: lightBlue;
+    cursor: pointer;
+}
+
+.mode {
+    margin-top: 50px;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.mode:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.mode:active {
+    opacity: 0.3;
+}
+
+.active {
+    background-color: #f0f0f0;
+    border: 2px solid black;
+    opacity: 0.7;
+}
+
+.search {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #5b8080;
+    height: 40px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+}
+
+.bar {
+    width: 300px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    padding-left: 20px;
+    font-family: monospace;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.icon {
+    width: 30px;
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+.contact {
+    margin-left: 30px;
+    color: white;
+    font-weight: semi-bold;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+    text-decoration: none;
+}
+
